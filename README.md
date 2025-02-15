@@ -7,7 +7,7 @@ s = pd.Series(np.arange(1, 13), index = ["January", "February", "March", "April"
 print(s)
 
 #3
-students_number = {"MatMIE" : 40, "MatDAIS" : 36, "COMIE" : 45, "COMCE" : 45}
+students = {"MatMIE" : 40, "MatDAIS" : 36, "COMIE" : 45, "COMCE" : 45}
 print(pd.Series(students_number))
 
 exam_data = {'name':["Anastasia", "Dima", "Katherine", "James", "Emily", "Michael", "Matthew", "Laura", "Kevin", "Jonas"], 'score': [12.5, 9, 16.5, np.nan, 9, 20, 14.5, np.nan, 8, 19],
